@@ -1,30 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства (ПЕРЕМЕННЫЕ ДЛЯ ТЕМНОЙ ОСНОВНОЙ ТЕМЫ)
-*/
-
 :root {
-  --font-family-base: 'IBM Plex mono'; /*шрифт*/
-  --font-weight-normal: 400; /*жирность 400*/
-  --font-weight-bold: 700;  /*жирность 700*/
-  --font-size-base: 18px; /*размер всего текста кроме no focus / focus*/
-
-  
-  --bg-color-page: url(/images/cover-image-dark.png), #000028; /*фон для темной темы*/
-
-  --decorated-zone-border-color: #FF0070; /*цвет бордера у декорации по краям*/
-
-  --color-button-text: #FF0070; /*цвет текста у кнопки*/
-  --color-button-outline: #FF0070; /*цвет обводки у кнопки*/
-  --title-decor-bg-color: #FF0070; /*цвет у всех h2*/
-  --title-decor-color: #FF0070;
-  --color-text-base: #F1B2CE; /*цвет основного текста*/
-
+  --font-family-base: "IBM Plex mono";
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-size-base: 18px;
+  --bg-color-page: url(/images/cover-image-dark.png), #000028;
+  --decorated-zone-border-color: #ff0070;
+  --color-button-text: #ff0070;
+  --color-button-outline: #ff0070;
+  --title-decor-bg-color: #ff0070;
+  --title-decor-color: #ff0070;
+  --color-text-base: #f1b2ce;
   --header-button-hover-border-color: rgba(255, 0, 112, 0.4);
-
-
-  --color-header-footer-title: #DB00FF; /*цвет текста для no focus / focus*/
-  --color-header-title-shadow: #FF0070; /*цвет тени*/
-
-  --title-decor-text-color: #000028; /*цвет текста внутри текста с фоном*/
+  --color-header-footer-title: #db00ff;
+  --color-header-title-shadow: #ff0070;
+  --title-decor-text-color: #000028;
 }

@@ -1,51 +1,30 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
-  --bg-color-page: url(/images/cover-image-light.png), #FFF1F7; /*фон для светлой темы*/
-
-  --decorated-zone-border-color: #353430; /*цвет бордера у декорации по краям*/
-
-  --color-button-text: #353430; /*цвет текста у кнопки*/
-  --color-button-outline: #353430; /*цвет обводки у кнопки*/
-  --title-decor-bg-color: #FF8DCB; /*цвет у всех h2*/
-  --title-decor-color: #353430; /*цвет в фонне декор*/
-  --color-text-base: #353430; /*цвет основного текста*/
-
+  --bg-color-page: url(/images/cover-image-light.png), #fff1f7;
+  --decorated-zone-border-color: #353430;
+  --color-button-text: #353430;
+  --color-button-outline: #353430;
+  --title-decor-bg-color: #ff8dcb;
+  --title-decor-color: #353430;
+  --color-text-base: #353430;
   --header-button-hover-border-color: rgba(50, 49, 45, 0.4);
-
-  --color-header-footer-title: #FFC2E6; /*цвет текста для no focus / focus*/
-  --color-header-title-shadow: #FF8DCB; /*цвет тени*/
-
-  --title-decor-text-color: #353430; /*цвет текста внутри текста с фоном*/
+  --color-header-footer-title: #ffc2e6;
+  --color-header-title-shadow: #ff8dcb;
+  --title-decor-text-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color-page: url(/images/cover-image-light.png), #FFF1F7; /*фон для светлой темы*/
-
-  --decorated-zone-border-color: #353430; /*цвет бордера у декорации по краям*/
-
-  --color-button-text: #353430; /*цвет текста у кнопки*/
-  --color-button-outline: #353430; /*цвет обводки у кнопки*/
-  --title-decor-bg-color: #FF8DCB; /*цвет у всех h2*/
-  --title-decor-color: #353430; /*цвет в фонне декор*/
-  --color-text-base: #353430; /*цвет основного текста*/
-
-  --header-button-hover-border-color: rgba(50, 49, 45, 0.4);
-
-  --color-header-footer-title: #FFC2E6; /*цвет текста для no focus / focus*/
-  --color-header-title-shadow: #FF8DCB; /*цвет тени*/
-
-  --title-decor-text-color: #353430; /*цвет текста внутри текста с фоном*/  
+    --bg-color-page: url(/images/cover-image-light.png), #fff1f7;
+    --decorated-zone-border-color: #353430;
+    --color-button-text: #353430;
+    --color-button-outline: #353430;
+    --title-decor-bg-color: #ff8dcb;
+    --title-decor-color: #353430;
+    --color-text-base: #353430;
+    --header-button-hover-border-color: rgba(50, 49, 45, 0.4);
+    --color-header-footer-title: #ffc2e6;
+    --color-header-title-shadow: #ff8dcb;
+    --title-decor-text-color: #353430;
   }
 }
 
