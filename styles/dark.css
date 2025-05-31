@@ -1,5 +1,5 @@
 :root.theme-dark {
-  --bg-color-page: url(./images/cover-image-dark.png), #000028;
+  --bg-color-page: url(../images/cover-image-dark.png), #000028;
   --decorated-zone-border-color: #ff0070;
   --color-button-text: #ff0070;
   --color-button-outline: #ff0070;
@@ -10,4 +10,14 @@
   --color-header-footer-title: #db00ff;
   --color-header-title-shadow: #ff0070;
   --title-decor-text-color: #000028;
+}
+
+.theme-dark .rec-label {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) .rec-label {
+    display: block;
+  }
 }
