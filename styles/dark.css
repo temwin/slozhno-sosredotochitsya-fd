@@ -1,5 +1,5 @@
 :root.theme-dark {
-  --bg-color-page: url(/images/cover-image-dark.png), #000028;
+  --bg-color-page: url(./images/cover-image-dark.png), #000028;
   --decorated-zone-border-color: #ff0070;
   --color-button-text: #ff0070;
   --color-button-outline: #ff0070;

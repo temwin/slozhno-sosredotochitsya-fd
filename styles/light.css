@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-color-page: url(/images/cover-image-light.png), #fff1f7;
+  --bg-color-page: url(./images/cover-image-light.png), #fff1f7;
   --decorated-zone-border-color: #353430;
   --color-button-text: #353430;
   --color-button-outline: #353430;
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color-page: url(/images/cover-image-light.png), #fff1f7;
+    --bg-color-page: url(./images/cover-image-light.png), #fff1f7;
     --decorated-zone-border-color: #353430;
     --color-button-text: #353430;
     --color-button-outline: #353430;

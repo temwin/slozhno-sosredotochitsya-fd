@@ -102,7 +102,7 @@
 .header__title {
   font-family: var(--font-family-base, sans-serif);
   font-weight: var(--font-weight-bold);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size);
   line-height: 83%;
   letter-spacing: 0px;
   text-shadow: 4px 4px 0 var(--color-header-title-shadow, #ff0070);
@@ -147,8 +147,9 @@
   gap: 20px;
 }
 
-.main__text-container--tips h4.title-decor {
-  margin-bottom: -20px;
+.tips-list {
+  display: grid;
+  gap: 20px;
 }
 
 .main__section-content--tips .title-decor {
@@ -208,7 +209,7 @@
 .footer__heading {
   font-family: var(--font-family-base, sans-serif);
   font-weight: var(--font-weight-bold, 700);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size);
   line-height: 83%;
   text-shadow: 2px 2px 0 var(--color-header-title-shadow, #ff0070);
   color: var(--color-header-footer-title, #db00ff);
@@ -249,7 +250,6 @@
 
   .header__title {
     margin-left: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .main {
@@ -321,10 +321,6 @@
   .rec-label {
     top: 20px;
     right: 48px;
-  }
-
-  .footer__heading {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
